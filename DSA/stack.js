@@ -1,17 +1,19 @@
 var letters = [];
-var word = "aman"
-var rword = "";
+var word = "racecar"
+var x = "";
 
 for (var i = 0; i < word.length; i++){
     letters.push(word[i]);
 }
 
+console.log(plate)
+
 for(var i = 0; i< word.length; i++){
 
-    rword = rword + letters.pop();
+    x = x + letters.pop();
 }
 
-if (rword === word){
+if (x === word){
     console.log(word + " is a palindrome.");
 }else{
     console.log(word + " is not a palindrome.");
