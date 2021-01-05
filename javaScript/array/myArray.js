@@ -14,7 +14,8 @@ for(i = arr.length -1 ; i >= 0; i--){
     rarr.push(arr[i])
 }
 
-
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+console.log(arr.reduce(reducer));
 
 
 console.log(arr)
