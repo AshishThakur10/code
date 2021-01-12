@@ -17,6 +17,12 @@ for(i = arr.length -1 ; i >= 0; i--){
 const reducer = (accumulator, currentValue) => accumulator + currentValue;
 console.log(arr.reduce(reducer));
 
+let sum = 0;
 
+for (let i = 0; i< arr.length; i++){
+    sum = sum + arr[i];
+}
+
+console.log(sum);
 console.log(arr)
 console.log(rarr)
