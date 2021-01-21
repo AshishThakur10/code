@@ -4,4 +4,12 @@ function convertToF(celsius) {
   return fahrenheit;
 }
 
-convertToF(30);
+console.log(convertToF(40));
+
+function convertToC(fahrenheit) {
+  let celsius;
+  celsius= fahrenheit - 32  * 5/9;
+  return celsius;
+}
+
+console.log(convertToC(2));
