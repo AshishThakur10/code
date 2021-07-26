@@ -21,12 +21,21 @@ class Stack {
         console.log(`${deletItem} removed`)
         return deletItem
     }
+
+    // check top element in stack
+    peek(){
+        console.log(`Top element is ${this.item[this.count -1]}`)
+        return this.item[this.count - 1]
+    }
 }
 
 const stack = new Stack()
 
 stack.push(100)
 stack.push(200)
+
+stack.peek()
+
 stack.push(300)
 
 stack.pop()
