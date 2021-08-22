@@ -4,7 +4,18 @@ string, object, array, or any value to the Array.
 You can use the push() function that adds new items to the end of an array and returns the new length.
 */
 const colors = ['black','dark green']
-console.log('before ' + colors)
+//console.log('before ' + colors)
 
 colors.push('white')            // push method 
-console.log(colors);
+//console.log(colors);
+
+/*unshift()
+Another method is used for appending an element to the beginning of an array is the unshift() function, which adds and returns the new length. It accepts multiple arguments, attaches the indexes of existing elements, and finally returns the new length of an array.
+*/
+
+const num = [2,3,4,5]
+
+console.log(num)
+num.unshift(1)
+
+console.log(num)
