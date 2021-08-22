@@ -15,7 +15,14 @@ Another method is used for appending an element to the beginning of an array is 
 
 const num = [2,3,4,5]
 
-console.log(num)
-num.unshift(1)
+//console.log(num)
+// num.unshift(1)
 
-console.log(num)
+//console.log(num)
+
+//const arr = colors.concat(num)
+const arr1 = []
+
+const arr = arr1.concat(colors,num);
+
+console.log(arr)
