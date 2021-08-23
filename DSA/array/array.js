@@ -39,6 +39,14 @@ const num = [2,3,4,5]
 
 
 
-const arrayOfOddNumbers = [1, 3, 5];
-arrayOfOddNumbers[100] = 199;
-console.log(arrayOfOddNumbers.length);
+// const arrayOfOddNumbers = [1, 3, 5];
+// arrayOfOddNumbers[100] = 199;
+// console.log(arrayOfOddNumbers.length);
+
+//Q 10: Given the following line of code, what would be the output of the console?
+// const arr = new Array("kfdg","g")
+// console.log(arr)
+
+//Q 8: Given the following line of code, what is the length of the array “foo”?
+const foo = []
+ //console.log(foo.length);
