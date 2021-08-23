@@ -21,8 +21,16 @@ const num = [2,3,4,5]
 //console.log(num)
 
 //const arr = colors.concat(num)
-const arr1 = []
+//const arr1 = []
 
-const arr = arr1.concat(colors,num);
+const arr = colors.concat(num)
 
 console.log(arr)
+
+
+Popping
+ /*The pop() method removes the last element from an array:
+ */
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();
