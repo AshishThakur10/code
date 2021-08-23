@@ -23,14 +23,22 @@ const num = [2,3,4,5]
 //const arr = colors.concat(num)
 //const arr1 = []
 
-const arr = colors.concat(num)
+// const arr = colors.concat(num)
 
-console.log(arr)
+// console.log(arr)
 
 
-Popping
- /*The pop() method removes the last element from an array:
- */
-Example
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.pop();
+// Popping
+//  /*The pop() method removes the last element from an array:
+//  */
+// Example
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.pop();
+ 
+
+
+
+
+const arrayOfOddNumbers = [1, 3, 5];
+arrayOfOddNumbers[100] = 199;
+console.log(arrayOfOddNumbers.length);
