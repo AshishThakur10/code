@@ -50,3 +50,12 @@ const num = [2,3,4,5]
 //Q 8: Given the following line of code, what is the length of the array “foo”?
 const foo = []
  //console.log(foo.length);
+
+ /* splice
+How to delete an element from the array?
+
+The arrays are objects, so we can try to use delete */
+let arry = ['one',2,false,true,undefined,null,'removeMe']   // an array 
+let spliceReturned = arry.splice(6,6)
+//console.log(arry)  // output ['one',2,false,true,undefined,null]
+//console.log(spliceReturned)  //out put [removeme]
