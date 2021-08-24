@@ -3,7 +3,7 @@ The push() method is an in-built JavaScript method that is used to add a number,
 string, object, array, or any value to the Array. 
 You can use the push() function that adds new items to the end of an array and returns the new length.
 */
-const colors = ['black','dark green']
+const colors = ['black', 'dark green']
 //console.log('before ' + colors)
 
 colors.push('white')            // push method 
@@ -13,7 +13,7 @@ colors.push('white')            // push method
 Another method is used for appending an element to the beginning of an array is the unshift() function, which adds and returns the new length. It accepts multiple arguments, attaches the indexes of existing elements, and finally returns the new length of an array.
 */
 
-const num = [2,3,4,5]
+const num = [2, 3, 4, 5]
 
 //console.log(num)
 // num.unshift(1)
@@ -34,7 +34,7 @@ const num = [2,3,4,5]
 // Example
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // fruits.pop();
- 
+
 
 
 
@@ -49,13 +49,23 @@ const num = [2,3,4,5]
 
 //Q 8: Given the following line of code, what is the length of the array “foo”?
 const foo = []
- //console.log(foo.length);
+//console.log(foo.length);
 
- /* splice
+/* splice
 How to delete an element from the array?
 
 The arrays are objects, so we can try to use delete */
-let arry = ['one',2,false,true,undefined,null,'removeMe']   // an array 
-let spliceReturned = arry.splice(6,6)
+let arry = ['one', 2, false, true, undefined, null, 'removeMe']   // an array 
+let spliceReturned = arry.splice(6, 1)  // first parameter represents the index on the array from which to begin removing elements, while the second parameter indicates the number of elements to delete.
 //console.log(arry)  // output ['one',2,false,true,undefined,null]
 //console.log(spliceReturned)  //out put [removeme]
+
+//slice 
+// it dose not change the ori. array  
+
+const number = [1, 2, 3, 4, 5];
+
+const num2 = number.slice(1,4);
+//const num2 = number.slice(-3); // output 3,4,5
+//console.log(number) // output 1,2,3,4,5
+//console.log(num2)  // output 2,3,4
