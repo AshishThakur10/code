@@ -94,3 +94,38 @@ function copyMachine(arr, num) {
   }
   
   //console.log(copyMachine([true, false, true], 2));
+
+  /*
+  REDUCE 
+The reduce() method executes a user-supplied “reducer” callback function on each element of the array, 
+passing in the return value from the calculation on the preceding element. 
+The final result of running the reducer across all elements of the array is a single value.
+
+The easiest-to-understand case for reduce() is to return the sum of all the elements in an array.
+
+The reducer walks through the array element-by-element, 
+at each step adding the current array value to the result from the previous step (this result is the running sum of all the previous steps) — until there are no more elements to add.
+
+[0, 1, 2, 3, 4].reduce(function(previousValue, currentValue, currentIndex, array) {
+  return previousValue + currentValue
+})
+
+callbackfn is called with four arguments:
+
+the previousValue (value from the previous call to callbackfn)
+the currentValue (value of the current element)
+the currentIndex, and
+the object being traversed
+
+*/
+
+const array1 = [1, 2, 3, 4];
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+// 1 + 2 + 3 + 4
+//console.log(array1.reduce(reducer));
+// expected output: 10
+
+// 5 + 1 + 2 + 3 + 4
+//console.log(array1.reduce(reducer, 5));
+// expected output: 15
