@@ -129,3 +129,26 @@ const reducer = (accumulator, currentValue) => accumulator + currentValue;
 // 5 + 1 + 2 + 3 + 4
 //console.log(array1.reduce(reducer, 5));
 // expected output: 15
+
+const sum = array1.reduce(function(a,b){
+  return a+b;
+}) 
+//console.log(sum) //output 10
+
+//custom sum function
+
+let totalsum = 0
+
+for(var i = 0; i < array1.length; i++){
+  //totalsum = totalsum + array1[i] 
+  //console.log(array1[i]);
+  totalsum = totalsum+array1[i];
+  
+}
+console.log(totalsum)
+
+array1.sort(function(a,b){  //by default ascending order
+  return b-a  //descending order:
+})
+
+console.log(array1);  //4, 3, 2, 1

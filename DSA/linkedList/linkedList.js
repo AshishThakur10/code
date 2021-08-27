@@ -51,3 +51,9 @@ Doubly linked list - Forward and backward navigation is possible.
 Circular linked list - Last element is linked to the first element.
 
 */
+
+//Implementing 
+
+class linkedlist{
+    constructor(data)
+}
